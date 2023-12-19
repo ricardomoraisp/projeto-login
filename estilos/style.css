@@ -31,7 +31,6 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: var(--cor0);
     width: 250px;
     height: 515px;
@@ -40,6 +39,7 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #login #imagem{
@@ -94,10 +94,10 @@ form .campo{
     font-size: 1em;
     width: calc(100% - 44.4px);
     height: 100%;
-    transform: translateY(-12.5px);
     border-radius: 8px;
     border: 0px;
     padding: 4px;
+    transform: translateY(-12.5px);
 }
 
 .campo input:focus-within{

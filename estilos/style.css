@@ -73,12 +73,35 @@ form .campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid #5f2c82;
 }
 
 .campo label{
     display: none;
+}
+
+.campo span{
+    color: #fff;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo input{
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 44.4px);
+    height: 100%;
+    transform: translateY(-12.5px);
+    border-radius: 8px;
+    border: 0px;
+    padding: 4px;
+}
+
+.campo input:focus-within{
+    background-color: #fff;
 }
 
 form input[type=submit]{
